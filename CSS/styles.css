@@ -1,0 +1,157 @@
+/* TAG STYLES */
+/* 16px = 1rem = 100%  100px = 6.25rem = 625% */
+a{
+    color: #11999E;
+    width: 30%;
+    margin: 1.5rem;
+    text-decoration: none;
+}
+
+
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+}
+
+p{
+    margin: auto;
+    line-height: 2;
+
+}
+
+h1{
+    color: #66BFBF;
+    margin: 0 auto 0 auto;
+    margin-top: 3.14rem;
+    font-family: 'Sacramento', cursive;
+    font-size: 500%;
+}
+
+h2{
+    color: #66BFBF;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150% ;
+    /* 16px = 1em */  
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    width: 3%;
+    margin: 3rem auto;
+    border-style: dotted hidden hidden hidden;
+    border-color: #838787;
+    border-width: 5px;
+}
+
+
+/* CLASS STYLES */
+.text{
+    display: inline;
+    width: 18.75rem;
+}
+
+.top-container{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 7.9rem;
+}
+
+.bottom-container{
+    margin: 1rem none none none;
+    padding: 2.5rem;
+    background-color: #66BFBF;
+}
+
+.bottomcloud{
+    position : absolute;
+    left: 10rem;
+}
+
+.contact-me{
+    margin: 3rem;
+}
+
+.copyright{
+    color: #EAF6F6;
+}
+
+.footer-link:hover{
+    color: #EAF6F6;
+}
+
+.topcloud{
+    position : absolute;
+    top: 7rem;
+    left: 55rem;
+    
+}
+
+.skill-row{
+    width : 50%;
+    margin: 6.25rem auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.image-1{
+    width: 25%;
+    float: left;
+    margin-right: 2rem;
+}
+
+.image-2{
+    width: 25%;
+    float: right;
+    margin-left: 2rem;
+}
+
+.links{
+    width: 30%;
+    margin: 1rem auto;
+    color: #11999E;
+
+}
+/* .text1{
+    clear: left;
+} */
+
+.rishipic{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.profiledesc{
+    width: 35%;
+}
+
+.profile{
+    margin: 2rem;
+}
+
+.btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #66BFBF;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #12baba;
+    background-image: -webkit-linear-gradient(top, #12baba, #0e8c8c);
+    background-image: -moz-linear-gradient(top, #12baba, #0e8c8c);
+    background-image: -ms-linear-gradient(top, #12baba, #0e8c8c);
+    background-image: -o-linear-gradient(top, #12baba, #0e8c8c);
+    background-image: linear-gradient(to bottom, #12baba, #0e8c8c);
+    text-decoration: none;
+  }
